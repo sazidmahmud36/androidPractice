@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestThree</string>
+    <string name="buttonName">CLICK</string>
+    <string name="toastText">You have clicked button!</string>
+</resources>

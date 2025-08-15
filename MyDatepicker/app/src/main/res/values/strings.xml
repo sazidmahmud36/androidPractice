@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyDatepicker</string>
+    <string name="dateTextView">Curent Date : </string>
+</resources>

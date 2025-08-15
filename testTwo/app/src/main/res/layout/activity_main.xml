@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/editText1Id"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:cursorVisible="true"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/editTextOne"
+        android:background="@color/beige"
+
+        />
+    <EditText
+        android:id="@+id/editText2Id"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"
+        android:cursorVisible="true"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/editTextTwo"
+        android:background="@color/beige"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+        <Button
+            android:id="@+id/addButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:text="@string/addButtonText"
+            />
+        <Button
+            android:id="@+id/subButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:text="@string/subButtonText"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+<!--        <Button-->
+<!--            android:id="@+id/loginButtonId"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/loginButtonName"-->
+<!--            android:textSize="20sp"-->
+<!--            android:drawableLeft="@drawable/login"-->
+<!--            android:textStyle="bold"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/logoutButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/logoutButtonName"-->
+<!--            android:textSize="20sp"-->
+
+<!--            android:drawableLeft="@drawable/logout"-->
+<!--            android:textAllCaps="true"/>-->
+<!--    </LinearLayout>-->
+<!--    <TextView-->
+<!--        android:id="@+id/textViewId"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:text="@string/textviewText"-->
+
+<!--        />-->
+
+
+
+
+
+</LinearLayout>

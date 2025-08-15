@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_weight="2"
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Butoon1"
+        android:backgroundTint="@color/green"/>
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Butoon2"
+        android:backgroundTint="@color/crimson"/>
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Butoon3"
+        android:backgroundTint="@color/chocolate"/>
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Butoon4"
+        android:backgroundTint="@color/dark_violet"/>
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Butoon5"
+        android:backgroundTint="@color/dark_slate_gray"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/light_sky_blue"
+    tools:context=".MainActivity">
+
+   <AnalogClock
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="10dp"/>
+
+   <Button
+       android:id="@+id/bdButtonId"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/bd_button"
+       android:textSize="18sp"
+       android:textStyle="bold"
+       android:textColor="@android:color/white"
+       android:drawableLeft="@drawable/bangladesh"
+       android:drawablePadding="12dp"
+       android:paddingVertical="12dp"
+       android:gravity="center_vertical"
+       android:fontFamily="sans-serif-medium"
+       android:layout_marginBottom="15dp"
+       android:background="@color/medium_violet_red"
+       style="@style/TextAppearance.AppCompat.Widget.Button.Colored"/>
+   <Button
+       android:id="@+id/indButtonId"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ind_button"
+       android:textSize="18sp"
+       android:textStyle="bold"
+       android:textColor="@android:color/white"
+       android:drawableLeft="@drawable/india"
+       android:drawablePadding="12dp"
+       android:paddingVertical="12dp"
+       android:gravity="center_vertical"
+       android:fontFamily="sans-serif-medium"
+       android:layout_marginBottom="15dp"
+       style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+       android:background="@color/medium_violet_red" />
+   <Button
+       android:id="@+id/pakButtonId"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/pak_button"
+       android:textSize="18sp"
+       android:textStyle="bold"
+       android:textColor="@android:color/white"
+       android:drawableLeft="@drawable/pakistan"
+       android:drawablePadding="12dp"
+       android:paddingVertical="12dp"
+       android:gravity="center_vertical"
+       android:fontFamily="sans-serif-medium"
+       android:layout_marginBottom="15dp"
+       android:background="@color/medium_violet_red"
+       style="@style/TextAppearance.AppCompat.Widget.Button.Colored"/>
+
+</LinearLayout>
