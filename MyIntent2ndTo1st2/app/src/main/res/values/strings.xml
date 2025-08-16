@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyIntent2ndTo1st</string>
+    <string name="buttonOneText">Go to the second activity</string>
+    <string name="buttonTwoText">Go to the first activity</string>
+</resources>
