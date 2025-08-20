@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">SpinnerwithOnItemSelectedListener</string>
+    <string-array name="country_names">
+        <item>Afghanistan</item>
+        <item>Bangladesh</item>
+        <item>Bhutan</item>
+        <item>Cambodia</item>
+        <item>China</item>
+        <item>Cyprus</item>
+        <item>Georgia</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Israel</item>
+        <item>Japan</item>
+        <item>Maldives</item>
+        <item>Nepal</item>
+        <item>Pakistan</item>
+        <item>Sri Lanka</item>
+    </string-array>
+
+
+    <string-array name="populations">
+        <item>41 million</item> <!-- Afghanistan -->
+        <item>173 million</item> <!-- Bangladesh -->
+        <item>0.8 million</item> <!-- Bhutan -->
+        <item>17 million</item> <!-- Cambodia -->
+        <item>1.41 billion</item> <!-- China -->
+        <item>1.2 million</item> <!-- Cyprus -->
+        <item>3.7 million</item> <!-- Georgia -->
+        <item>1.43 billion</item> <!-- India -->
+        <item>282 million</item> <!-- Indonesia -->
+        <item>89 million</item> <!-- Iran -->
+        <item>46 million</item> <!-- Iraq -->
+        <item>9.7 million</item> <!-- Israel -->
+        <item>124 million</item> <!-- Japan -->
+        <item>0.52 million</item> <!-- Maldives -->
+        <item>31 million</item> <!-- Nepal -->
+        <item>241 million</item> <!-- Pakistan -->
+        <item>22 million</item> <!-- Sri Lanka -->
+    </string-array>
+
+
+
+</resources>
