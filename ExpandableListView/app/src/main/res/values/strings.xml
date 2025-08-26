@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">ExpandableListView</string>
+
+    <string-array name="list_header">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>RAM</item>
+        <item>ROM</item>
+        <item>HDD</item>
+        <item>SSD</item>
+        <item>DVD</item>
+        <item>USB</item>
+        <item>LAN</item>
+        <item>WAN</item>
+        <item>IP</item>
+        <item>MAC</item>
+        <item>HTTP</item>
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>SQL</item>
+        <item>API</item>
+        <item>AI</item>
+        <item>IoT</item>
+        <item>BIOS</item>
+        <item>OS</item>
+        <item>DNS</item>
+        <item>VPN</item>
+        <item>SMS</item>
+        <item>MMS</item>
+        <item>ISP</item>
+        <item>URL</item>
+        <item>PDF</item>
+        <item>ZIP</item>
+        <item>XML</item>
+        <item>JSON</item>
+        <item>IDE</item>
+        <item>SDK</item>
+        <item>UI</item>
+        <item>UX</item>
+    </string-array>
+
+    <!-- Full Forms -->
+    <string-array name="list_child">
+        <item>CPU - Central Processing Unit (Main processor of a computer)</item>
+        <item>GPU - Graphics Processing Unit (Handles graphics and image processing)</item>
+        <item>RAM - Random Access Memory (Temporary memory for fast data access)</item>
+        <item>ROM - Read Only Memory (Permanent memory, only readable)</item>
+        <item>HDD - Hard Disk Drive (Traditional disk-based data storage)</item>
+        <item>SSD - Solid State Drive (Modern and faster data storage)</item>
+        <item>DVD - Digital Versatile Disc (Optical disc for video and data storage)</item>
+        <item>USB - Universal Serial Bus (Used for data transfer and device connection)</item>
+        <item>LAN - Local Area Network (Small network within limited area)</item>
+        <item>WAN - Wide Area Network (Large-scale wide coverage network)</item>
+        <item>IP - Internet Protocol (Address for devices in a network)</item>
+        <item>MAC - Media Access Control (Unique hardware address of a device)</item>
+        <item>HTTP - HyperText Transfer Protocol (Protocol for loading web pages)</item>
+        <item>HTML - HyperText Markup Language (Language for creating web pages)</item>
+        <item>CSS - Cascading Style Sheets (For styling and designing web pages)</item>
+        <item>SQL - Structured Query Language (Used for managing databases)</item>
+        <item>API - Application Programming Interface (Allows apps to communicate)</item>
+        <item>AI - Artificial Intelligence (Technology mimicking human intelligence)</item>
+        <item>IoT - Internet of Things (Smart devices connected to the internet)</item>
+        <item>BIOS - Basic Input Output System (Startup software of a computer)</item>
+        <item>OS - Operating System (Core software to run a computer/mobile)</item>
+        <item>DNS - Domain Name System (Converts domain names into IP addresses)</item>
+        <item>VPN - Virtual Private Network (Secure private network connection)</item>
+        <item>SMS - Short Message Service (Text messaging service)</item>
+        <item>MMS - Multimedia Messaging Service (Messaging with images/videos)</item>
+        <item>ISP - Internet Service Provider (Company that provides internet)</item>
+        <item>URL - Uniform Resource Locator (Address of a web page)</item>
+        <item>PDF - Portable Document Format (Document file format for sharing)</item>
+        <item>ZIP - Compressed File Format (Stores multiple files in smaller size)</item>
+        <item>XML - eXtensible Markup Language (Language for storing and sharing data)</item>
+        <item>JSON - JavaScript Object Notation (Lightweight data exchange format)</item>
+        <item>IDE - Integrated Development Environment (Tools for programming)</item>
+        <item>SDK - Software Development Kit (Collection of tools for app development)</item>
+        <item>UI - User Interface (Visible part of app/website for users)</item>
+        <item>UX - User Experience (Overall experience of the user)</item>
+    </string-array>
+
+</resources>
